@@ -1,0 +1,25 @@
+name: Publish Blogger HTML
+
+on:
+  push:
+    paths:
+      - "posts/**/*.html"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - run: echo "${{ secrets.BLOGGER_TOKEN }}" | base64 --decode > token.pickle
+
+      - env:
+          BLOG_ID: ${{ secrets.BLOG_ID }}
+        run: python publish.py
