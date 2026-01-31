@@ -18,8 +18,8 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: echo "${{ secrets.BLOGGER_TOKEN }}" | base64 --decode > token.pickle
+      - run: echo "${{secrets.BLOGGER_TOKEN }}" | base64 --decode > token.pickle
 
       - env:
-          BLOG_ID: ${{ secrets.BLOG_ID }}
+          BLOG_ID: ${{secrets.BLOG_ID }}
         run: python publish.py
