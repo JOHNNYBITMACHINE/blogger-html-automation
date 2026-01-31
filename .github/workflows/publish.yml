@@ -10,16 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      - run: echo "${{secrets.BLOGGER_TOKEN }}" | base64 --decode > token.pickle
+      - name: Restore OAuth token
+        run: echo "${{ secrets.BLOGGER_TOKEN }}" | base64 --decode > token.pickle
 
-      - env:
-          BLOG_ID: ${{secrets.BLOG_ID }}
+      - name: Publish posts
+        env:
+          BLOG_ID: ${{ secrets.BLOG_ID }}
         run: python publish.py
