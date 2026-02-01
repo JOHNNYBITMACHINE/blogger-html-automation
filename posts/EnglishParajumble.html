@@ -1,0 +1,249 @@
+
+<!--
+title: Parajumble English Quiz for SSC, Banking & Govt Exams | Free Online Test
+labels:Parajumble
+-->
+
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWsBIXvIWphHilP2B0uiBDv_hoquH_4HKAFYGyhaZUFq1jDuRbUhxWWMW6bGBGeU5ysviTD0D6BudIIqRzeZf_C4TKAIiFhX4EJU0-mAK_8HGkr7zHihmwExK0sw8unJ7QJlN_EEhbfksk6Isu5cSfmaCrLA0mk7c1zcpxhzZw75zNdncqtCCrlLXxHQk/s800/EnglishTes.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="528" data-original-width="800" height="264" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWsBIXvIWphHilP2B0uiBDv_hoquH_4HKAFYGyhaZUFq1jDuRbUhxWWMW6bGBGeU5ysviTD0D6BudIIqRzeZf_C4TKAIiFhX4EJU0-mAK_8HGkr7zHihmwExK0sw8unJ7QJlN_EEhbfksk6Isu5cSfmaCrLA0mk7c1zcpxhzZw75zNdncqtCCrlLXxHQk/w400-h264/EnglishTes.jpeg" width="400" /></a></div><div class="separator" style="clear: both; text-align: left;">This English test is specially designed for <strong data-end="289" data-start="225">SSC English, Banking English, and All India Government Exams</strong>. It covers important topics such as <strong data-end="443" data-is-only-node="" data-start="326">English grammar, vocabulary, reading comprehension, error detection, sentence improvement, and practice questions</strong> based on the latest exam pattern. Ideal for candidates preparing for <strong data-end="602" data-start="513">SSC CGL, CHSL, MTS, Banking exams (IBPS, SBI), and other competitive government exams</strong>, this test helps improve accuracy, speed, and exam-level English proficiency.</div><br />&nbsp;<p></p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+:root{--primary:#764ba2; --secondary:#667eea; --wrong:#ff4757; --correct:#2ed573; --whatsapp:#25D366; --telegram:#0088cc; --skip:#95a5a6}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',sans-serif;background:#f4f7f6;padding:15px;color:#333}
+.quiz-container{max-width:650px;margin:0 auto;background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,0.1)}
+.quiz-header{background:linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);padding:25px;color:#fff;text-align:center}
+.card{padding:25px;text-align:center}
+.quiz-info-box{background:#f8f9fa; border:1px solid #e0e0e0; border-radius:10px; padding:15px; margin:15px 0; text-align:left; font-size:14px; line-height:1.6}
+input[type="text"]{width:100%;padding:12px;margin:15px 0;border:2px solid #eee;border-radius:8px;outline:none;font-size:16px}
+input[type="text"]:focus{border-color:var(--primary)}
+.btn{width:100%;padding:15px;border:none;border-radius:8px;background:var(--primary);color:#fff;font-weight:700;cursor:pointer;font-size:16px;transition:0.3s; margin-bottom:10px}
+.btn:hover{opacity:0.9}
+.btn-skip{background:var(--skip); margin-top:5px}
+.share-container{display:flex; gap:10px; margin-top:15px}
+.btn-wa{background:var(--whatsapp); flex:1}
+.btn-tg{background:var(--telegram); flex:1}
+.stats-bar{display:flex;justify-content:center;padding:10px 20px;background:#f8f9fa;border-bottom:1px solid #eee;font-size:14px;font-weight:bold}
+#timerDisplay{background:var(--wrong);color:#fff;padding:8px;text-align:center;font-weight:bold;font-size:14px}
+.option{display:block;padding:12px;margin-bottom:10px;background:#f9f9f9;border:2px solid #eee;border-radius:10px;cursor:pointer;text-align:left;transition:0.2s}
+.explanation{padding:15px;background:#fff3cd;border-left:5px solid #ffc107;margin-top:15px;border-radius:8px;text-align:left;font-size:14px}
+.leaderboard{margin-top:20px;width:100%;border-collapse:collapse; font-size:14px}
+.leaderboard th, .leaderboard td{padding:10px;border:1px solid #eee;text-align:center}
+.leaderboard th{background:#f8f9fa}
+.result-meta{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:15px 0}
+.meta-box{background:#f0f4ff; padding:10px; border-radius:8px}
+</style>
+</head>
+<body>
+
+<div class="quiz-container">
+    <div class="quiz-header">
+        <h2> English  - PARAJUMBLE</h2>
+    </div>
+
+    <div id="loginPage" class="card">
+        <h3>Welcome!</h3>
+        <p>Enter your name to join the leaderboard</p>
+        <input type="text" id="userName" placeholder="Your Full Name...">
+        <button class="btn" onclick="saveUser()">Continue</button>
+    </div>
+
+    <div id="landingPage" class="card" style="display:none">
+        <p>Hello, <strong id="displayUser"></strong>!</p>
+        
+        <div class="quiz-info-box">
+            <p style="font-weight:bold; color:var(--primary); margin-bottom:5px;">📝</p>
+            <p>Get exam-ready with our English Quiz, focused on building strong vocabulary and language precision. Ideal for SSC, Banking, Railways, and all major government exams.<br>Challenge yourself with carefully curated questions that test your knowledge of single-word substitutes for common phrases. Perfect for enhancing your verbal skills and boosting your confidence in competitive exams.<br></p>
+            <hr style="margin:10px 0; border:0; border-top:1px dashed #ccc">
+            <ul style="padding-left:20px;">
+                <li><strong>Questions:</strong> 25</li>
+                <li><strong>Time per Question:</strong> 75 seconds</li>
+                <li><strong>Scoring:</strong> +2 for Correct, -0.5 for Wrong/Timeout</li>
+                <li><strong>Skip:</strong> Shows answer, no penalty</li>
+            </ul>
+        </div>
+
+        <button class="btn" onclick="startQuiz()">🚀 Start Quiz Now</button>
+    </div>
+
+    <div id="quizContent" style="display:none">
+        <div id="timerDisplay">⏱️ TIME LEFT: <span id="timer">75</span>s</div>
+        <div class="stats-bar">
+            <span>QUESTION: <span id="qIdx">1</span> / 25</span>
+        </div>
+        <div id="questionContainer" style="padding:20px"></div>
+        <div id="explanationContainer" style="display:none; padding:0 20px"></div>
+        <div style="padding:20px">
+            <button id="nextBtn" class="btn" onclick="nextQuestion()" style="display:none">Next Question</button>
+            <button id="skipBtn" class="btn btn-skip" onclick="skipQuestion()">⏭️ Skip Question</button>
+        </div>
+    </div>
+
+    <div id="results" class="card" style="display:none">
+        <h2>Quiz Results</h2>
+        <div id="finalScoreDisplay" style="font-size:3em; color:var(--primary); margin:10px 0; font-weight:bold">0</div>
+        
+        <div class="result-meta">
+            <div class="meta-box">Accuracy<br><strong id="resAccuracy">0%</strong></div>
+            <div class="meta-box">Total Time<br><strong id="resTime">0s</strong></div>
+        </div>
+
+        <div class="share-container">
+            <button class="btn btn-wa" onclick="shareScore('wa')">WhatsApp</button>
+            <button class="btn btn-tg" onclick="shareScore('tg')">Telegram</button>
+        </div>
+
+        <hr style="margin:20px 0; border:0; border-top:1px solid #eee">
+        <h3>🏆 Leaderboard</h3>
+        <table class="leaderboard">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Score</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody id="leaderBody"></tbody>
+        </table>
+        <button class="btn" onclick="location.reload()" style="background:#444; margin-top:20px">Restart Quiz</button>
+    </div>
+</div>
+
+<script>
+// (All Javascript logic remains the same as the previous version)
+const quizData = [{"question": "(A) Suddenly, he saw a bright red bird fly by. (B) Mark was sitting quietly in the park. (C) He had never seen a bird that color before. (D) He quickly took a picture with his phone.", "right answer": "B A C D", "wrong": "CBDA", "wrong.1": "ADCB", "wrong.2": "DCAB", "explanation": "B sets the scene/activity (Mark was sitting). A describes the sudden event. C describes the character's reaction/thought to the event. D describes the final physical action taken."}, {"question": "(A) This allows them to see details that are invisible to the naked eye. (B) Microscopes are instruments used to view very small objects. (C) They work by using lenses to magnify the image many times. (D) Therefore, they are essential tools in biology and medicine.", "right answer": "B C A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B introduces the topic (Microscopes). C explains how they work. A explains the benefit/result. D is the concluding necessity."}, {"question": "(A) The next phase involves intense negotiation and compromise between the two parties. (B) Creating a peace treaty is a delicate, multi-stage diplomatic procedure. (C) Initially, secret talks are held to establish a basic framework for dialogue. (D) The final step is the formal signing ceremony, which symbolizes the end of hostilities.", "right answer": "B C A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B introduces the process. C uses the marker (Initially). A uses the temporal connector (\"The next phase\"). D refers to the last step (\"The final step\")."}, {"question": "(A) The body uses this process to heal wounds and fight off infections. (B) White blood cells are part of the immune system. (C) Their job is to constantly patrol the bloodstream. (D) They identify and destroy foreign invaders like viruses.", "right answer": "B C D A", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B introduces the topic (White blood cells). C explains the general action. D explains the specific action/function. A explains the overall purpose/benefit."}, {"question": "(A) This process is called photosynthesis. (B) Plants create their own food using sunlight, water, and carbon dioxide. (C) Photosynthesis occurs mainly in the leaves, which contain chlorophyll. (D) The result is glucose (sugar) and the release of oxygen into the air.", "right answer": "B A C D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B introduces the main action (Plants create food). A provides the name for the process. C details where it happens. D explains the final result."}, {"question": "(A) Then, she wiped the table and put the dishes away. (B) First, Maria scraped the food remnants into the trash bin. (C) Cleaning the kitchen counter required three quick steps. (D) Finally, she washed her hands with soap and water.", "right answer": "C B A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "BACD", "explanation": "C is the opening statement. B uses the marker (First). A uses the marker (Then). D uses the marker (Finally)."}, {"question": "(A) She was excited to see the vibrant blue sky. (B) Maria drew the curtains open. (C) It had been raining heavily all night. (D) She realized the storm had finally passed.", "right answer": "C B D A", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "BACD", "explanation": "C sets the preceding context (It had been raining heavily). B describes the action taken next (drew the curtains). D describes the realization based on the view. A describes the final feeling/observation."}, {"question": "(A) Next, mix the egg and flour slowly to avoid lumps. (B) Making pancakes involves three simple steps. (C) First, gather all the ingredients, including milk and butter. (D) Finally, pour the batter onto a hot, buttered pan.", "right answer": "B C A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B is the opening statement. C uses the marker (First). A uses the marker (Next). D uses the marker (Finally)."}, {"question": "(A) This helps ensure the longevity of the structure and protect historical value. (B) Building preservation involves maintaining and restoring structures of historical or architectural significance. (C) It often requires using specialized materials and techniques that match the original construction. (D) Therefore, experts in architecture and materials science must be consulted.", "right answer": "B C D A", "wrong": "CBDA", "wrong.1": "DCAB", "wrong.2": "ACBD", "explanation": "B introduces the topic, Building preservation. C details the methods required (\"It often requires using specialized materials...\"). D explains the necessity of consultation due to the methods (\"Therefore, experts in architecture... must be consulted\"). A explains the overall purpose (\"This helps ensure the longevity...\")."}, {"question": "(A) Next, he tied the two shoes together with the laces. (B) First, Alex put his socks on each foot. (C) Getting ready for the hike required several steps. (D) Finally, he slipped his heavy hiking boots onto his feet.", "right answer": "C B D A", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "BACD", "explanation": "C is the opening statement. B uses the marker (First). D describes the main action. A uses the marker (Next)."}, {"question": "(A) Next, he carefully sliced the tomatoes and onions. (B) First, Sam bought the fresh ingredients from the market. (C) He planned to make a large, colorful salad for dinner. (D) Finally, he mixed everything with the dressing in a large bowl.", "right answer": "C B A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "BACD", "explanation": "C introduces the character and the goal. B uses the marker (First). A uses the marker (Next). D uses the marker (Finally)."}, {"question": "(A) This helps prevent the spread of germs. (B) Washing your hands regularly is a simple habit. (C) You should use soap and water and scrub for 20 seconds. (D) It is one of the best ways to stay healthy.", "right answer": "B D C A", "wrong": "CBDA", "wrong.1": "ACBD", "wrong.2": "DCAB", "explanation": "B introduces the topic (Washing hands). D explains the overall benefit (\"It is one of the best ways to stay healthy\"). C details the correct method (\"You should use soap and water...\"). A explains the immediate benefit of the method."}, {"question": "(A) Then, she carefully mixed the dough and began kneading it. (B) First, a little yeast was dissolved in warm water and sugar. (C) The baker was preparing a batch of fresh sourdough bread. (D) Finally, she allowed the dough to rise in a warm, covered bowl.", "right answer": "C B A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "BACD", "explanation": "C introduces the character and the goal. B uses the marker (First). A uses the marker (Then). D uses the marker (Finally)."}, {"question": "(A) The final step is to securely seal the envelope. (B) Mailing a letter requires following three easy steps. (C) First, write the recipient’s address on the front of the envelope. (D) Then, place the letter inside and attach a stamp to the corner.", "right answer": "B C D A", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B is the opening statement. C uses the marker (First). D uses the marker (Then). A is the clear closing step."}, {"question": "(A) Therefore, the successful completion of this merger is vital for the company's future. (B) The company's expansion into the South American market faced severe logistical challenges. (C) To overcome this, the CEO proposed a strategic merger with a local distribution network. (D) This partnership would immediately resolve the transportation and warehousing difficulties.", "right answer": "B C D A", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B introduces the problem. C introduces the solution (\"To overcome this\"). D explains the benefit of the solution (\"This partnership\"). A is the concluding statement of importance (\"Therefore\")."}, {"question": "(A) Next, the programmer must debug the code to fix any errors. (B) Creating a simple website requires following four main steps. (C) First, the structure of the site is planned out on paper. (D) Finally, the completed website is uploaded to the server.", "right answer": "B C A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B is the opening statement. C uses the marker (First). A uses the marker (Next). D uses the marker (Finally)."}, {"question": "(A) Next, he added butter, salt, and pepper. (B) Tom was preparing a simple meal of mashed potatoes. (C) First, he peeled and boiled the potatoes until soft. (D) Finally, he used a masher to turn them into a creamy consistency.", "right answer": "B C A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B introduces the character and the goal. C uses the marker (First). A uses the marker (Next). D uses the marker (Finally)."}, {"question": "(A) Next, he carefully removed the crusts from the sides of the sandwich. (B) First, Tom spread a layer of peanut butter and jelly on the bread. (C) He wanted to make a perfect, crust-free sandwich for his sister. (D) Finally, he sliced the sandwich diagonally into two triangles.", "right answer": "C B A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "BACD", "explanation": "C introduces the goal. B uses the marker (First). A uses the marker (Next). D uses the marker (Finally)."}, {"question": "(A) Yet, it requires massive amounts of data storage and processing power. (B) Artificial Intelligence (AI) is rapidly transforming modern industries. (C) This capacity allows AI algorithms to learn, predict, and automate tasks. (D) It enables systems to perform complex functions previously limited to humans.", "right answer": "B D A C", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B introduces the main topic (AI). D explains what it does generally. A introduces a major constraint/requirement (\"Yet\"). C explains the purpose of the constraint (storage/power)."}, {"question": "(A) The final step is to put the money into the bank’s night deposit box. (B) Closing the convenience store at night involves a four-step security routine. (C) First, the manager must lock the front doors and turn off the lights. (D) Next, all the cash from the registers must be counted and secured in a bag.", "right answer": "B C D A", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B is the opening statement. C uses the marker (First). D uses the marker (Next). A refers to the final step."}, {"question": "(A) This prevents the lens from becoming scratched or damaged. (B) Protecting a camera lens is crucial for taking clear photos. (C) It involves keeping the lens cap on when the camera is not in use. (D) Even a tiny scratch can ruin the quality of an image.", "right answer": "B C A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B introduces the topic (Protecting a camera lens). C explains the method. A explains the immediate purpose/benefit. D explains the consequence."}, {"question": "(A) Next, she carefully polished the lenses with a soft cloth. (B) John needed to clean his reading glasses. (C) First, he rinsed them with warm water and soap. (D) Finally, he put them on and found his vision was crystal clear.", "right answer": "B C A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B introduces the goal. C uses the marker (First). A uses the marker (Next). D uses the marker (Finally)."}, {"question": "(A) Then, she used the iron to smooth out all the wrinkles. (B) First, Sarah laid the freshly washed shirt on the ironing board. (C) She needed to iron her shirt before she went to her interview. (D) Finally, she hung the wrinkle-free shirt neatly in the closet.", "right answer": "C B A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "BACD", "explanation": "C introduces the goal. B uses the marker (First). A uses the marker (Then). D uses the marker (Finally)."}, {"question": "(A) These structures are often visible as streaks or columns of light. (B) Auroras are natural light displays in the Earth's sky, primarily seen in the high-latitude regions. (C) They are caused by solar wind particles interacting with the gases in the Earth's atmosphere. (D) The color variations depend on the type of gas being excited.", "right answer": "B C A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B introduces the phenomenon (Auroras). C explains the scientific cause (\"They are caused by\"). A describes the visual result (\"These structures\"). D explains a specific characteristic (color)."}, {"question": "(A) This process is called convection. (B) Boiling water transfers heat from the bottom of the pot to the top. (C) The cooler water sinks, while the hotter water rises. (D) Convection is a crucial method of heat transfer.", "right answer": "B C A D", "wrong": "DABC", "wrong.1": "ACBD", "wrong.2": "CBDA", "explanation": "B introduces the starting action. C explains the mechanism. A provides the name for the mechanism. D provides a concluding fact."}];
+const TIME_LIMIT = 75;
+const quizTitle = " English  - PARAJUMBLE";
+let userName = localStorage.getItem('quiz_user') || "";
+let currentIdx = 0, score = 0, timeLeft = TIME_LIMIT, timerObj = null;
+let correctCount = 0, startTime = 0, totalQuestionsAttempted = 0;
+let currentOptions = [];
+
+window.onload = () => { if(userName) showLanding(); };
+
+function saveUser() {
+    userName = document.getElementById('userName').value.trim();
+    if(userName.length < 2) return alert("Enter name");
+    localStorage.setItem('quiz_user', userName);
+    showLanding();
+}
+
+function showLanding() {
+    document.getElementById('loginPage').style.display = 'none';
+    document.getElementById('landingPage').style.display = 'block';
+    document.getElementById('displayUser').textContent = userName;
+}
+
+function startQuiz() {
+    startTime = Date.now();
+    document.getElementById('landingPage').style.display = 'none';
+    document.getElementById('quizContent').style.display = 'block';
+    loadQuestion();
+}
+
+function loadQuestion() {
+    if(currentIdx >= quizData.length) return finishQuiz();
+    timeLeft = TIME_LIMIT;
+    document.getElementById('timer').textContent = timeLeft;
+    document.getElementById('qIdx').textContent = currentIdx + 1;
+    document.getElementById('nextBtn').style.display = 'none';
+    document.getElementById('skipBtn').style.display = 'block';
+    document.getElementById('explanationContainer').style.display = 'none';
+    
+    const q = quizData[currentIdx];
+    currentOptions = [{t:q['right answer'],c:true},{t:q.wrong,c:false},{t:q['wrong.1'],c:false},{t:q['wrong.2'],c:false}].filter(o=>o.t).sort(()=>Math.random()-0.5);
+
+    let html = `<p style="font-size:18px; font-weight:bold; margin-bottom:20px">${q.question}</p>`;
+    currentOptions.forEach((o, i) => {
+        html += `<div class="option" id="opt-${i}" onclick="checkAnswer(${i}, ${o.c})">
+            <strong>${String.fromCharCode(65+i)})</strong> &nbsp; ${o.t}
+        </div>`;
+    });
+    document.getElementById('questionContainer').innerHTML = html;
+    
+    clearInterval(timerObj);
+    timerObj = setInterval(() => {
+        timeLeft--;
+        document.getElementById('timer').textContent = timeLeft;
+        if(timeLeft <= 0) { clearInterval(timerObj); handleTimeout(); }
+    }, 1000);
+}
+
+function checkAnswer(optId, isCorrect) {
+    clearInterval(timerObj);
+    totalQuestionsAttempted++;
+    document.querySelectorAll('.option').forEach(opt => opt.style.pointerEvents = 'none');
+    document.getElementById('skipBtn').style.display = 'none';
+    const el = document.getElementById(`opt-${optId}`);
+    el.style.background = isCorrect ? '#e8fdf0' : '#fff0f0';
+    el.style.borderColor = isCorrect ? 'var(--correct)' : 'var(--wrong)';
+    if(!isCorrect) highlightCorrect();
+    if(isCorrect) { score += 2; correctCount++; } else { score -= 0.5; }
+    showExplanation(isCorrect);
+}
+
+function highlightCorrect() {
+    currentOptions.forEach((o, i) => {
+        if(o.c) {
+            const correctEl = document.getElementById(`opt-${i}`);
+            correctEl.style.background = '#e8fdf0';
+            correctEl.style.borderColor = 'var(--correct)';
+        }
+    });
+}
+
+function skipQuestion() {
+    clearInterval(timerObj);
+    document.querySelectorAll('.option').forEach(opt => opt.style.pointerEvents = 'none');
+    document.getElementById('skipBtn').style.display = 'none';
+    highlightCorrect();
+    showExplanation(false, "⏭️ Question Skipped");
+}
+
+function handleTimeout() { 
+    totalQuestionsAttempted++;
+    score -= 0.5; 
+    document.getElementById('skipBtn').style.display = 'none';
+    highlightCorrect();
+    showExplanation(false, "⏰ Time's Up!"); 
+}
+
+function showExplanation(isCorrect, msg) {
+    const head = msg || (isCorrect ? "✅ Correct!" : "❌ Incorrect!");
+    document.getElementById('explanationContainer').innerHTML = `<div class="explanation"><strong>${head}</strong><br>${quizData[currentIdx].explanation || ''}</div>`;
+    document.getElementById('explanationContainer').style.display = 'block';
+    document.getElementById('nextBtn').style.display = 'block';
+}
+
+function nextQuestion() { currentIdx++; loadQuestion(); }
+
+function finishQuiz() {
+    const totalTimeTaken = Math.floor((Date.now() - startTime) / 1000);
+    const accuracy = totalQuestionsAttempted > 0 ? ((correctCount / totalQuestionsAttempted) * 100).toFixed(1) : 0;
+    document.getElementById('quizContent').style.display = 'none';
+    document.getElementById('results').style.display = 'block';
+    document.getElementById('finalScoreDisplay').textContent = score.toFixed(1);
+    document.getElementById('resAccuracy').textContent = accuracy + "%";
+    document.getElementById('resTime').textContent = totalTimeTaken + "s";
+    let board = JSON.parse(localStorage.getItem('quiz_board') || "[]");
+    board.push({name: userName, score: parseFloat(score.toFixed(1)), time: totalTimeTaken});
+    board.sort((a, b) => b.score - a.score || a.time - b.time);
+    board = board.slice(0, 10);
+    localStorage.setItem('quiz_board', JSON.stringify(board));
+    document.getElementById('leaderBody').innerHTML = board.map((e, i) => `<tr><td>${i+1}</td><td>${e.name}</td><td>${e.score}</td><td>${e.time}s</td></tr>`).join('');
+}
+
+function shareScore(platform) {
+    const totalTimeTaken = document.getElementById('resTime').textContent;
+    const text = `🎯 I scored ${score.toFixed(1)} points in ${totalTimeTaken} on the "${quizTitle}"! \nAccuracy: ${document.getElementById('resAccuracy').textContent}.`;
+    const url = platform === 'wa' ? `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}` : `https://t.me/share/url?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(text)}`;
+    window.open(url, '_blank');
+}
+</script>
+</body>
+</html>
