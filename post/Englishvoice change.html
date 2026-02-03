@@ -1,0 +1,253 @@
+
+<!--
+title: Voice Change English Quiz for SSC, Banking & Govt Exams | Free Online Test
+labels:Voice Change
+-->
+
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWsBIXvIWphHilP2B0uiBDv_hoquH_4HKAFYGyhaZUFq1jDuRbUhxWWMW6bGBGeU5ysviTD0D6BudIIqRzeZf_C4TKAIiFhX4EJU0-mAK_8HGkr7zHihmwExK0sw8unJ7QJlN_EEhbfksk6Isu5cSfmaCrLA0mk7c1zcpxhzZw75zNdncqtCCrlLXxHQk/s800/EnglishTes.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="528" data-original-width="800" height="264" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWsBIXvIWphHilP2B0uiBDv_hoquH_4HKAFYGyhaZUFq1jDuRbUhxWWMW6bGBGeU5ysviTD0D6BudIIqRzeZf_C4TKAIiFhX4EJU0-mAK_8HGkr7zHihmwExK0sw8unJ7QJlN_EEhbfksk6Isu5cSfmaCrLA0mk7c1zcpxhzZw75zNdncqtCCrlLXxHQk/w400-h264/EnglishTes.jpeg" width="400" /></a></div><div class="separator" style="clear: both; text-align: left;">This English test is specially designed for <strong data-end="289" data-start="225">SSC English, Banking English, and All India Government Exams</strong>. It covers important topics such as <strong data-end="443" data-is-only-node="" data-start="326">English grammar, vocabulary, reading comprehension, error detection, sentence improvement, and practice questions</strong> based on the latest exam pattern. Ideal for candidates preparing for <strong data-end="602" data-start="513">SSC CGL, CHSL, MTS, Banking exams (IBPS, SBI), and other competitive government exams</strong>, this test helps improve accuracy, speed, and exam-level English proficiency.</div><br />&nbsp;<p></p>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+:root{--primary:#764ba2; --secondary:#667eea; --wrong:#ff4757; --correct:#2ed573; --whatsapp:#25D366; --telegram:#0088cc; --skip:#95a5a6}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',sans-serif;background:#f4f7f6;padding:15px;color:#333}
+.quiz-container{max-width:650px;margin:0 auto;background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,0.1)}
+.quiz-header{background:linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);padding:25px;color:#fff;text-align:center}
+.card{padding:25px;text-align:center}
+.quiz-info-box{background:#f8f9fa; border:1px solid #e0e0e0; border-radius:10px; padding:15px; margin:15px 0; text-align:left; font-size:14px; line-height:1.6}
+input[type="text"]{width:100%;padding:12px;margin:15px 0;border:2px solid #eee;border-radius:8px;outline:none;font-size:16px}
+input[type="text"]:focus{border-color:var(--primary)}
+.btn{width:100%;padding:15px;border:none;border-radius:8px;background:var(--primary);color:#fff;font-weight:700;cursor:pointer;font-size:16px;transition:0.3s; margin-bottom:10px}
+.btn:hover{opacity:0.9}
+.btn-skip{background:var(--skip); margin-top:5px}
+.share-container{display:flex; gap:10px; margin-top:15px}
+.btn-wa{background:var(--whatsapp); flex:1}
+.btn-tg{background:var(--telegram); flex:1}
+.stats-bar{display:flex;justify-content:center;padding:10px 20px;background:#f8f9fa;border-bottom:1px solid #eee;font-size:14px;font-weight:bold}
+#timerDisplay{background:var(--wrong);color:#fff;padding:8px;text-align:center;font-weight:bold;font-size:14px}
+.option{display:block;padding:12px;margin-bottom:10px;background:#f9f9f9;border:2px solid #eee;border-radius:10px;cursor:pointer;text-align:left;transition:0.2s}
+.explanation{padding:15px;background:#fff3cd;border-left:5px solid #ffc107;margin-top:15px;border-radius:8px;text-align:left;font-size:14px}
+.leaderboard{margin-top:20px;width:100%;border-collapse:collapse; font-size:14px}
+.leaderboard th, .leaderboard td{padding:10px;border:1px solid #eee;text-align:center}
+.leaderboard th{background:#f8f9fa}
+.result-meta{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:15px 0}
+.meta-box{background:#f0f4ff; padding:10px; border-radius:8px}
+</style>
+</head>
+<body>
+
+<div class="quiz-container">
+    <div class="quiz-header">
+        <h2> English  - Voice Change Test</h2>
+    </div>
+
+    <div id="loginPage" class="card">
+        <h3>Welcome!</h3>
+        <p>Enter your name to join the leaderboard</p>
+        <input type="text" id="userName" placeholder="Your Full Name...">
+        <button class="btn" onclick="saveUser()">Continue</button>
+    </div>
+
+    <div id="landingPage" class="card" style="display:none">
+        <p>Hello, <strong id="displayUser"></strong>!</p>
+        
+        <div class="quiz-info-box">
+            <p style="font-weight:bold; color:var(--primary); margin-bottom:5px;">📝</p>
+            <p>Get exam-ready with our English Quiz, focused on building strong vocabulary and language precision. Ideal for SSC, Banking, Railways, and all major government exams.<br>Challenge yourself with carefully curated questions that test your knowledge of single-word substitutes for common phrases. Perfect for enhancing your verbal skills and boosting your confidence in competitive exams.<br></p>
+            <hr style="margin:10px 0; border:0; border-top:1px dashed #ccc">
+            <ul style="padding-left:20px;">
+                <li><strong>Questions:</strong> 25</li>
+                <li><strong>Time per Question:</strong> 30 seconds</li>
+                <li><strong>Scoring:</strong> +2 for Correct, -0.5 for Wrong/Timeout</li>
+                <li><strong>Skip:</strong> Shows answer, no penalty</li>
+            </ul>
+        </div>
+
+        <button class="btn" onclick="startQuiz()">🚀 Start Quiz Now</button>
+    </div>
+
+    <div id="quizContent" style="display:none">
+        <div id="timerDisplay">⏱️ TIME LEFT: <span id="timer">30</span>s</div>
+        <div class="stats-bar">
+            <span>QUESTION: <span id="qIdx">1</span> / 25</span>
+        </div>
+        <div id="questionContainer" style="padding:20px"></div>
+        <div id="explanationContainer" style="display:none; padding:0 20px"></div>
+        <div style="padding:20px">
+            <button id="nextBtn" class="btn" onclick="nextQuestion()" style="display:none">Next Question</button>
+            <button id="skipBtn" class="btn btn-skip" onclick="skipQuestion()">⏭️ Skip Question</button>
+        </div>
+    </div>
+
+    <div id="results" class="card" style="display:none">
+        <h2>Quiz Results</h2>
+        <div id="finalScoreDisplay" style="font-size:3em; color:var(--primary); margin:10px 0; font-weight:bold">0</div>
+        
+        <div class="result-meta">
+            <div class="meta-box">Accuracy<br><strong id="resAccuracy">0%</strong></div>
+            <div class="meta-box">Total Time<br><strong id="resTime">0s</strong></div>
+        </div>
+
+        <div class="share-container">
+            <button class="btn btn-wa" onclick="shareScore('wa')">WhatsApp</button>
+            <button class="btn btn-tg" onclick="shareScore('tg')">Telegram</button>
+        </div>
+
+        <hr style="margin:20px 0; border:0; border-top:1px solid #eee">
+        <h3>🏆 Leaderboard</h3>
+        <table class="leaderboard">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Score</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody id="leaderBody"></tbody>
+        </table>
+        <button class="btn" onclick="location.reload()" style="background:#444; margin-top:20px">Restart Quiz</button>
+    </div>
+</div>
+
+<script>
+// (All Javascript logic remains the same as the previous version)
+const quizData = [{"question": "The manager must approve the expenses.", "right answer": "The expenses must be approved by the manager.", "wrong": "The expenses should be approved by the manager.", "wrong.1": "The expenses are approved by the manager.", "wrong.2": "The manager is approving the expenses.", "explanation": "Explanation :    The manager must approve the expenses.    The expenses must be approved by the manager."}, {"question": "Did the sudden noise distract the speaker?", "right answer": "Was the speaker distracted by the sudden noise?", "wrong": "Is the speaker distracted by the sudden noise?", "wrong.1": "Has the speaker been distracted by the sudden noise?", "wrong.2": "The speaker was distracted by the sudden noise?", "explanation": "Explanation :    Did the sudden noise distract the speaker?    Was the speaker distracted by the sudden noise?"}, {"question": "Who has broken the silence?", "right answer": "By whom has the silence been broken?", "wrong": "Who is the silence broken by?", "wrong.1": "The silence has been broken by who?", "wrong.2": "By whom was the silence broken?", "explanation": "Explanation :    Who has broken the silence?    By whom has the silence been broken?"}, {"question": "I was offered the job after the interview.", "right answer": "The company offered me the job after the interview.", "wrong": "Someone offered me the job after the interview.", "wrong.1": "The job was offered to me after the interview.", "wrong.2": "I offered the job after the interview.", "explanation": "Explanation :    I was offered the job after the interview.    The company offered me the job after the interview."}, {"question": "Why did the principal expel the student?", "right answer": "Why was the student expelled by the principal?", "wrong": "Why is the student expelled by the principal?", "wrong.1": "Why the student was expelled by the principal?", "wrong.2": "Why has the student been expelled by the principal?", "explanation": "Explanation :    Why did the principal expel the student?    Why was the student expelled by the principal?"}, {"question": "The manager is announcing the quarterly results to the staff.", "right answer": "The quarterly results are being announced to the staff by the manager.", "wrong": "The staff are being announced the quarterly results by the manager.", "wrong.1": "The staff are announced the quarterly results by the manager.", "wrong.2": "The manager announced the quarterly results to the staff.", "explanation": "Explanation :    The manager is announcing the quarterly results to the staff.    The quarterly results are being announced to the staff by the manager."}, {"question": "The prisoners were forced to apologize to the victim.", "right answer": "The judge forced the prisoners to apologize to the victim.", "wrong": "Someone forced the prisoners to apologize to the victim.", "wrong.1": "An apology was forced to be given by the prisoners.", "wrong.2": "The prisoners forced the victim to apologize.", "explanation": "Explanation :    The prisoners were forced to apologize to the victim.    The judge forced the prisoners to apologize to the victim."}, {"question": "The criminal was beaten severely.", "right answer": "They beat the criminal severely.", "wrong": "Someone beat the criminal severely.", "wrong.1": "The criminal beats severely.", "wrong.2": "The criminal was being beaten severely.", "explanation": "Explanation :    The criminal was beaten severely.    They beat the criminal severely."}, {"question": "They expect the new policy to generate revenue.", "right answer": "The new policy is expected to generate revenue by them.", "wrong": "It is expected that the new policy will generate revenue.", "wrong.1": "Revenue is expected to be generated by the new policy.", "wrong.2": "They are expected to generate revenue.", "explanation": "Explanation :    They expect the new policy to generate revenue.    The new policy is expected to generate revenue by them."}, {"question": "We hope that he will win the prize.", "right answer": "It is hoped that he will win the prize.", "wrong": "He is hoped to win the prize.", "wrong.1": "We hope that the prize will be won by him.", "wrong.2": "That he will win the prize is hoped.", "explanation": "Explanation :    We hope that he will win the prize.    It is hoped that he will win the prize."}, {"question": "Pay attention to my words.", "right answer": "Let your attention be paid to my words.", "wrong": "You are requested to pay attention to my words.", "wrong.1": "My words are paid attention to.", "wrong.2": "My words should be paid attention.", "explanation": "Explanation :    Pay attention to my words.    Let your attention be paid to my words."}, {"question": "The instructions were followed strictly.", "right answer": "We followed the instructions strictly.", "wrong": "The instructions followed us strictly.", "wrong.1": "We are following the instructions strictly.", "wrong.2": "The instructions have been followed strictly.", "explanation": "Explanation :    The instructions were followed strictly.    We followed the instructions strictly."}, {"question": "I know him.", "right answer": "He is known to me.", "wrong": "He is known by me.", "wrong.1": "He was known to me.", "wrong.2": "I am known by him.", "explanation": "Explanation :    I know him.    He is known to me."}, {"question": "The manager saw the employee leave the office early.", "right answer": "The employee was seen to leave the office early by the manager.", "wrong": "The employee was seen leaving the office early by the manager.", "wrong.1": "The manager was seeing the employee leave the office early.", "wrong.2": "The employee was seen leave the office early.", "explanation": "Explanation :    The manager saw the employee leave the office early.    The employee was seen to leave the office early by the manager."}, {"question": "I heard the musician compose the tune.", "right answer": "The musician was heard to compose the tune by me.", "wrong": "The musician was heard composing the tune by me.", "wrong.1": "The tune was heard composed by the musician.", "wrong.2": "I was heard composing the tune.", "explanation": "Explanation :    I heard the musician compose the tune.    The musician was heard to compose the tune by me."}, {"question": "It is time to wind up the discussion.", "right answer": "It is time for the discussion to be wound up.", "wrong": "The discussion should be wound up now.", "wrong.1": "It is time for winding up the discussion.", "wrong.2": "The discussion is to be wound up.", "explanation": "Explanation :    It is time to wind up the discussion.    It is time for the discussion to be wound up."}, {"question": "Return the equipment to the storage room.", "right answer": "The equipment should be returned to the storage room.", "wrong": "Let the equipment be returned to the storage room.", "wrong.1": "You are ordered to return the equipment to the storage room.", "wrong.2": "Return to the storage room the equipment.", "explanation": "Explanation :    Return the equipment to the storage room.    The equipment should be returned to the storage room."}, {"question": "They should have repaired the roads.", "right answer": "The roads should have been repaired by them.", "wrong": "The roads must have been repaired by them.", "wrong.1": "The roads are being repaired by them.", "wrong.2": "They are repairing the roads.", "explanation": "Explanation :    They should have repaired the roads.    The roads should have been repaired by them."}, {"question": "Is the news of the merger known to the public?", "right answer": "Does the public know the news of the merger?", "wrong": "Was the news of the merger known to the public?", "wrong.1": "The public knows the news of the merger?", "wrong.2": "Is the public knowing the news of the merger?", "explanation": "Explanation :    Is the news of the merger known to the public?    Does the public know the news of the merger?"}, {"question": "He was taught French by a native speaker.", "right answer": "A native speaker taught him French.", "wrong": "A native speaker was teaching him French.", "wrong.1": "French was taught to him by a native speaker.", "wrong.2": "He taught French to a native speaker.", "explanation": "Explanation :    He was taught French by a native speaker.    A native speaker taught him French."}, {"question": "Why did the sudden drop in temperature freeze the crops?", "right answer": "Why were the crops frozen by the sudden drop in temperature?", "wrong": "Why are the crops frozen by the sudden drop in temperature?", "wrong.1": "Why the sudden drop in temperature froze the crops?", "wrong.2": "Why the crops were frozen by the sudden drop in temperature?", "explanation": "Explanation :    Why did the sudden drop in temperature freeze the crops?    Why were the crops frozen by the sudden drop in temperature?"}, {"question": "How is the government financing the public infrastructure?", "right answer": "How is the public infrastructure being financed by the government?", "wrong": "How the public infrastructure is being financed by the government?", "wrong.1": "How was the public infrastructure financed by the government?", "wrong.2": "The public infrastructure is being financed by the government how?", "explanation": "Explanation :    How is the government financing the public infrastructure?    How is the public infrastructure being financed by the government?"}, {"question": "The lack of clarity confused the entire team.", "right answer": "The entire team was confused by the lack of clarity.", "wrong": "The entire team was confused at the lack of clarity.", "wrong.1": "The lack of clarity was confusing the entire team.", "wrong.2": "The entire team is confused by the lack of clarity.", "explanation": "Explanation :    The lack of clarity confused the entire team.    The entire team was confused by the lack of clarity."}, {"question": "The committee was requested to reconsider the decision.", "right answer": "Someone requested the committee to reconsider the decision.", "wrong": "They requested the committee to reconsider the decision.", "wrong.1": "The decision was requested to be reconsidered.", "wrong.2": "The committee requested the decision.", "explanation": "Explanation :    The committee was requested to reconsider the decision.    Someone requested the committee to reconsider the decision."}, {"question": "The firemen are extinguishing the flames.", "right answer": "The flames are being extinguished by the firemen.", "wrong": "The flames were being extinguished by the firemen.", "wrong.1": "The flames are extinguished by the firemen.", "wrong.2": "The firemen extinguished the flames.", "explanation": "Explanation :    The firemen are extinguishing the flames.    The flames are being extinguished by the firemen."}];
+const TIME_LIMIT = 30;
+const quizTitle = " English  - Voice Change Test";
+let userName = localStorage.getItem('quiz_user') || "";
+let currentIdx = 0, score = 0, timeLeft = TIME_LIMIT, timerObj = null;
+let correctCount = 0, startTime = 0, totalQuestionsAttempted = 0;
+let currentOptions = [];
+
+window.onload = () => { if(userName) showLanding(); };
+
+function saveUser() {
+    userName = document.getElementById('userName').value.trim();
+    if(userName.length < 2) return alert("Enter name");
+    localStorage.setItem('quiz_user', userName);
+    showLanding();
+}
+
+function showLanding() {
+    document.getElementById('loginPage').style.display = 'none';
+    document.getElementById('landingPage').style.display = 'block';
+    document.getElementById('displayUser').textContent = userName;
+}
+
+function startQuiz() {
+    startTime = Date.now();
+    document.getElementById('landingPage').style.display = 'none';
+    document.getElementById('quizContent').style.display = 'block';
+    loadQuestion();
+}
+
+function loadQuestion() {
+    if(currentIdx >= quizData.length) return finishQuiz();
+    timeLeft = TIME_LIMIT;
+    document.getElementById('timer').textContent = timeLeft;
+    document.getElementById('qIdx').textContent = currentIdx + 1;
+    document.getElementById('nextBtn').style.display = 'none';
+    document.getElementById('skipBtn').style.display = 'block';
+    document.getElementById('explanationContainer').style.display = 'none';
+    
+    const q = quizData[currentIdx];
+    currentOptions = [{t:q['right answer'],c:true},{t:q.wrong,c:false},{t:q['wrong.1'],c:false},{t:q['wrong.2'],c:false}].filter(o=>o.t).sort(()=>Math.random()-0.5);
+
+    let html = `<p style="font-size:18px; font-weight:bold; margin-bottom:20px">${q.question}</p>`;
+    currentOptions.forEach((o, i) => {
+        html += `<div class="option" id="opt-${i}" onclick="checkAnswer(${i}, ${o.c})">
+            <strong>${String.fromCharCode(65+i)})</strong> &nbsp; ${o.t}
+        </div>`;
+    });
+    document.getElementById('questionContainer').innerHTML = html;
+    
+    clearInterval(timerObj);
+    timerObj = setInterval(() => {
+        timeLeft--;
+        document.getElementById('timer').textContent = timeLeft;
+        if(timeLeft <= 0) { clearInterval(timerObj); handleTimeout(); }
+    }, 1000);
+}
+
+function checkAnswer(optId, isCorrect) {
+    clearInterval(timerObj);
+    totalQuestionsAttempted++;
+    document.querySelectorAll('.option').forEach(opt => opt.style.pointerEvents = 'none');
+    document.getElementById('skipBtn').style.display = 'none';
+    const el = document.getElementById(`opt-${optId}`);
+    el.style.background = isCorrect ? '#e8fdf0' : '#fff0f0';
+    el.style.borderColor = isCorrect ? 'var(--correct)' : 'var(--wrong)';
+    if(!isCorrect) highlightCorrect();
+    if(isCorrect) { score += 2; correctCount++; } else { score -= 0.5; }
+    showExplanation(isCorrect);
+}
+
+function highlightCorrect() {
+    currentOptions.forEach((o, i) => {
+        if(o.c) {
+            const correctEl = document.getElementById(`opt-${i}`);
+            correctEl.style.background = '#e8fdf0';
+            correctEl.style.borderColor = 'var(--correct)';
+        }
+    });
+}
+
+function skipQuestion() {
+    clearInterval(timerObj);
+    document.querySelectorAll('.option').forEach(opt => opt.style.pointerEvents = 'none');
+    document.getElementById('skipBtn').style.display = 'none';
+    highlightCorrect();
+    showExplanation(false, "⏭️ Question Skipped");
+}
+
+function handleTimeout() { 
+    totalQuestionsAttempted++;
+    score -= 0.5; 
+    document.getElementById('skipBtn').style.display = 'none';
+    highlightCorrect();
+    showExplanation(false, "⏰ Time's Up!"); 
+}
+
+function showExplanation(isCorrect, msg) {
+    const head = msg || (isCorrect ? "✅ Correct!" : "❌ Incorrect!");
+    document.getElementById('explanationContainer').innerHTML = `<div class="explanation"><strong>${head}</strong><br>${quizData[currentIdx].explanation || ''}</div>`;
+    document.getElementById('explanationContainer').style.display = 'block';
+    document.getElementById('nextBtn').style.display = 'block';
+}
+
+function nextQuestion() { currentIdx++; loadQuestion(); }
+
+function finishQuiz() {
+    const totalTimeTaken = Math.floor((Date.now() - startTime) / 1000);
+    const accuracy = totalQuestionsAttempted > 0 ? ((correctCount / totalQuestionsAttempted) * 100).toFixed(1) : 0;
+    document.getElementById('quizContent').style.display = 'none';
+    document.getElementById('results').style.display = 'block';
+    document.getElementById('finalScoreDisplay').textContent = score.toFixed(1);
+    document.getElementById('resAccuracy').textContent = accuracy + "%";
+    document.getElementById('resTime').textContent = totalTimeTaken + "s";
+    let board = JSON.parse(localStorage.getItem('quiz_board') || "[]");
+    board.push({name: userName, score: parseFloat(score.toFixed(1)), time: totalTimeTaken});
+    board.sort((a, b) => b.score - a.score || a.time - b.time);
+    board = board.slice(0, 10);
+    localStorage.setItem('quiz_board', JSON.stringify(board));
+    document.getElementById('leaderBody').innerHTML = board.map((e, i) => `<tr><td>${i+1}</td><td>${e.name}</td><td>${e.score}</td><td>${e.time}s</td></tr>`).join('');
+}
+
+function shareScore(platform) {
+    const totalTimeTaken = document.getElementById('resTime').textContent;
+    const text = `🎯 I scored ${score.toFixed(1)} points in ${totalTimeTaken} on the "${quizTitle}"! \nAccuracy: ${document.getElementById('resAccuracy').textContent}.`;
+    const url = platform === 'wa' ? `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}` : `https://t.me/share/url?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(text)}`;
+    window.open(url, '_blank');
+}
+</script>
+</body>
+</html>
