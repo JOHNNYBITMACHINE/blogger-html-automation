@@ -1,0 +1,255 @@
+
+
+<!--
+title: Narration English Quiz for SSC, Banking & Govt Exams | Free Online Test
+labels:Narration
+-->
+
+<p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWsBIXvIWphHilP2B0uiBDv_hoquH_4HKAFYGyhaZUFq1jDuRbUhxWWMW6bGBGeU5ysviTD0D6BudIIqRzeZf_C4TKAIiFhX4EJU0-mAK_8HGkr7zHihmwExK0sw8unJ7QJlN_EEhbfksk6Isu5cSfmaCrLA0mk7c1zcpxhzZw75zNdncqtCCrlLXxHQk/s800/EnglishTes.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="528" data-original-width="800" height="264" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWsBIXvIWphHilP2B0uiBDv_hoquH_4HKAFYGyhaZUFq1jDuRbUhxWWMW6bGBGeU5ysviTD0D6BudIIqRzeZf_C4TKAIiFhX4EJU0-mAK_8HGkr7zHihmwExK0sw8unJ7QJlN_EEhbfksk6Isu5cSfmaCrLA0mk7c1zcpxhzZw75zNdncqtCCrlLXxHQk/w400-h264/EnglishTes.jpeg" width="400" /></a></div><div class="separator" style="clear: both; text-align: left;">This English test is specially designed for <strong data-end="289" data-start="225">SSC English, Banking English, and All India Government Exams</strong>. It covers important topics such as <strong data-end="443" data-is-only-node="" data-start="326">English grammar, vocabulary, reading comprehension, error detection, sentence improvement, and practice questions</strong> based on the latest exam pattern. Ideal for candidates preparing for <strong data-end="602" data-start="513">SSC CGL, CHSL, MTS, Banking exams (IBPS, SBI), and other competitive government exams</strong>, this test helps improve accuracy, speed, and exam-level English proficiency.</div><br />&nbsp;<p></p>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+:root{--primary:#764ba2; --secondary:#667eea; --wrong:#ff4757; --correct:#2ed573; --whatsapp:#25D366; --telegram:#0088cc; --skip:#95a5a6}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',sans-serif;background:#f4f7f6;padding:15px;color:#333}
+.quiz-container{max-width:650px;margin:0 auto;background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,0.1)}
+.quiz-header{background:linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);padding:25px;color:#fff;text-align:center}
+.card{padding:25px;text-align:center}
+.quiz-info-box{background:#f8f9fa; border:1px solid #e0e0e0; border-radius:10px; padding:15px; margin:15px 0; text-align:left; font-size:14px; line-height:1.6}
+input[type="text"]{width:100%;padding:12px;margin:15px 0;border:2px solid #eee;border-radius:8px;outline:none;font-size:16px}
+input[type="text"]:focus{border-color:var(--primary)}
+.btn{width:100%;padding:15px;border:none;border-radius:8px;background:var(--primary);color:#fff;font-weight:700;cursor:pointer;font-size:16px;transition:0.3s; margin-bottom:10px}
+.btn:hover{opacity:0.9}
+.btn-skip{background:var(--skip); margin-top:5px}
+.share-container{display:flex; gap:10px; margin-top:15px}
+.btn-wa{background:var(--whatsapp); flex:1}
+.btn-tg{background:var(--telegram); flex:1}
+.stats-bar{display:flex;justify-content:center;padding:10px 20px;background:#f8f9fa;border-bottom:1px solid #eee;font-size:14px;font-weight:bold}
+#timerDisplay{background:var(--wrong);color:#fff;padding:8px;text-align:center;font-weight:bold;font-size:14px}
+.option{display:block;padding:12px;margin-bottom:10px;background:#f9f9f9;border:2px solid #eee;border-radius:10px;cursor:pointer;text-align:left;transition:0.2s}
+.explanation{padding:15px;background:#fff3cd;border-left:5px solid #ffc107;margin-top:15px;border-radius:8px;text-align:left;font-size:14px}
+.leaderboard{margin-top:20px;width:100%;border-collapse:collapse; font-size:14px}
+.leaderboard th, .leaderboard td{padding:10px;border:1px solid #eee;text-align:center}
+.leaderboard th{background:#f8f9fa}
+.result-meta{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:15px 0}
+.meta-box{background:#f0f4ff; padding:10px; border-radius:8px}
+</style>
+</head>
+<body>
+
+<div class="quiz-container">
+    <div class="quiz-header">
+        <h2> English  - Narration Test</h2>
+    </div>
+
+    <div id="loginPage" class="card">
+        <h3>Welcome!</h3>
+        <p>Enter your name to join the leaderboard</p>
+        <input type="text" id="userName" placeholder="Your Full Name...">
+        <button class="btn" onclick="saveUser()">Continue</button>
+    </div>
+
+    <div id="landingPage" class="card" style="display:none">
+        <p>Hello, <strong id="displayUser"></strong>!</p>
+        
+        <div class="quiz-info-box">
+            <p style="font-weight:bold; color:var(--primary); margin-bottom:5px;">📝</p>
+            <p>Get exam-ready with our English Quiz, focused on building strong vocabulary and language precision. Ideal for SSC, Banking, Railways, and all major government exams.<br>Challenge yourself with carefully curated questions that test your knowledge of single-word substitutes for common phrases. Perfect for enhancing your verbal skills and boosting your confidence in competitive exams.<br></p>
+            <hr style="margin:10px 0; border:0; border-top:1px dashed #ccc">
+            <ul style="padding-left:20px;">
+                <li><strong>Questions:</strong> 25</li>
+                <li><strong>Time per Question:</strong> 25 seconds</li>
+                <li><strong>Scoring:</strong> +2 for Correct, -0.5 for Wrong/Timeout</li>
+                <li><strong>Skip:</strong> Shows answer, no penalty</li>
+            </ul>
+        </div>
+
+        <button class="btn" onclick="startQuiz()">🚀 Start Quiz Now</button>
+    </div>
+
+    <div id="quizContent" style="display:none">
+        <div id="timerDisplay">⏱️ TIME LEFT: <span id="timer">25</span>s</div>
+        <div class="stats-bar">
+            <span>QUESTION: <span id="qIdx">1</span> / 25</span>
+        </div>
+        <div id="questionContainer" style="padding:20px"></div>
+        <div id="explanationContainer" style="display:none; padding:0 20px"></div>
+        <div style="padding:20px">
+            <button id="nextBtn" class="btn" onclick="nextQuestion()" style="display:none">Next Question</button>
+            <button id="skipBtn" class="btn btn-skip" onclick="skipQuestion()">⏭️ Skip Question</button>
+        </div>
+    </div>
+
+    <div id="results" class="card" style="display:none">
+        <h2>Quiz Results</h2>
+        <div id="finalScoreDisplay" style="font-size:3em; color:var(--primary); margin:10px 0; font-weight:bold">0</div>
+        
+        <div class="result-meta">
+            <div class="meta-box">Accuracy<br><strong id="resAccuracy">0%</strong></div>
+            <div class="meta-box">Total Time<br><strong id="resTime">0s</strong></div>
+        </div>
+
+        <div class="share-container">
+            <button class="btn btn-wa" onclick="shareScore('wa')">WhatsApp</button>
+            <button class="btn btn-tg" onclick="shareScore('tg')">Telegram</button>
+        </div>
+
+        <hr style="margin:20px 0; border:0; border-top:1px solid #eee">
+        <h3>🏆 Leaderboard</h3>
+        <table class="leaderboard">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Score</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody id="leaderBody"></tbody>
+        </table>
+        <button class="btn" onclick="location.reload()" style="background:#444; margin-top:20px">Restart Quiz</button>
+    </div>
+</div>
+
+<script>
+// (All Javascript logic remains the same as the previous version)
+const quizData = [{"question": "He said, \"Alas! My proposal has been rejected by the committee.\"", "right answer": "He exclaimed sadly that his proposal had been rejected by the committee.", "wrong": "He exclaimed alas that his proposal has been rejected by the committee.", "wrong.1": "He said alas, my proposal has been rejected by the committee.", "wrong.2": "He exclaimed sadly that his proposal was rejected by the committee.", "explanation": NaN}, {"question": "The guide said, \"Follow me closely.\"", "right answer": "The guide ordered them to follow him closely.", "wrong": "The guide said follow me closely.", "wrong.1": "The guide ordered follow me closely.", "wrong.2": "The guide advised them follow him closely.", "explanation": NaN}, {"question": "The child said, \"Look! The toy is being carried by the dog over there.\"", "right answer": "The child drew attention and said that the toy was being carried by the dog over there.", "wrong": "The child said look! The toy is being carried by the dog over there.", "wrong.1": "The child drew attention and said the toy is being carried by the dog over there.", "wrong.2": "The child said the toy was being carried by the dog over there.", "explanation": NaN}, {"question": "She exclaimed, \"What a tragedy this earthquake has caused!\"", "right answer": "She exclaimed sadly what a tragedy that earthquake had caused.", "wrong": "She exclaimed that that earthquake has caused a great tragedy.", "wrong.1": "She exclaimed what a tragedy this earthquake has caused.", "wrong.2": "She exclaimed sadly that that earthquake caused a great tragedy.", "explanation": NaN}, {"question": "The audience shouted, \"Long live the Queen!\"", "right answer": "The audience wished that the Queen might live long.", "wrong": "The audience said that the Queen may live long.", "wrong.1": "The audience prayed the Queen might live long.", "wrong.2": "The audience said long live the Queen.", "explanation": NaN}, {"question": " He said, \"How cleverly you have managed the situation!\"", "right answer": "He exclaimed with admiration how cleverly I had managed the situation", "wrong": "He exclaimed that how cleverly I had managed the situation", "wrong.1": "He exclaimed how cleverly I have managed the situation", "wrong.2": "He exclaimed that you have managed the situation cleverly", "explanation": NaN}, {"question": "He said, \"I had finished my work when she arrived.\"", "right answer": "He said that he had finished his work when she arrived.", "wrong": "He said that he finished his work when she arrived.", "wrong.1": "He said that I had finished my work when she arrived.", "wrong.2": "He said he has finished his work when she arrived.", "explanation": NaN}, {"question": "They said, \"We will meet again soon.\"", "right answer": "They said that they would meet again soon.", "wrong": "They said that they will meet again soon.", "wrong.1": "They said that we would meet again soon.", "wrong.2": "They said they met again soon.", "explanation": NaN}, {"question": "The child asked, \"Who will teach us the song that was sung last week?\"", "right answer": "The child asked who would teach them the song that had been sung the week before.", "wrong": "The child asked who will teach us the song that was sung last week.", "wrong.1": "The child asked who would teach them the song that was sung the week before.", "wrong.2": "The child asked who will teach them the song that was sung last week.", "explanation": NaN}, {"question": "He said to her, \"Do you want to join the club?\"", "right answer": "He asked her if she wanted to join the club.", "wrong": "He asked her if she wants to join the club.", "wrong.1": "He asked her do you want to join the club.", "wrong.2": "He asked her if she did want to join the club.", "explanation": NaN}, {"question": " My uncle said, \"I will be back in an hour\"", "right answer": "My uncle said that he would be back in an hour", "wrong": "My uncle said that he will be back in an hour", "wrong.1": "My uncle said that I would be back in an hour", "wrong.2": "My uncle said he was back in an hour", "explanation": NaN}, {"question": "The boy said, \"Please give me some water.\"", "right answer": "The boy requested them to give him some water.", "wrong": "The boy requested please give him some water.", "wrong.1": "The boy said to give me some water.", "wrong.2": "The boy requested to give me some water.", "explanation": NaN}, {"question": "They said, \"We shall overcome.\"", "right answer": "They said that they would overcome.", "wrong": "They said that they shall overcome.", "wrong.1": "They said that we shall overcome.", "wrong.2": "They said that they might overcome.", "explanation": NaN}, {"question": "They said, \"We will start the construction next week.\"", "right answer": "They said that they would start the construction the following week.", "wrong": "They said that they will start the construction next week.", "wrong.1": "They said that we will start the construction next week.", "wrong.2": "They said they started the construction the following week.", "explanation": NaN}, {"question": "They said, \"We are going fishing this weekend.\"", "right answer": "They said that they were going fishing that weekend.", "wrong": "They said that they are going fishing this weekend.", "wrong.1": "They said that we are going fishing that weekend.", "wrong.2": "They said they went fishing that weekend.", "explanation": NaN}, {"question": " He said, \"I might go to the party\"", "right answer": "He said that he might go to the party", "wrong": "He said that he may go to the party", "wrong.1": "He said that I might go to the party", "wrong.2": "He said he went to the party", "explanation": NaN}, {"question": "They said, \"We cannot afford a new car.\"", "right answer": "They said that they could not afford a new car.", "wrong": "They said that they cannot afford a new car.", "wrong.1": "They said that we could not afford a new car.", "wrong.2": "They said that they didn't afford a new car.", "explanation": NaN}, {"question": "The sign said, \"Entry is strictly prohibited to unauthorized personnel.\"", "right answer": "The sign said that entry was strictly prohibited to unauthorized personnel.", "wrong": "The sign said that entry is strictly prohibited to unauthorized personnel.", "wrong.1": "The sign said entry is strictly prohibited to unauthorized personnel.", "wrong.2": "The sign said entry had been strictly prohibited to unauthorized personnel.", "explanation": NaN}, {"question": "The officer asked, \"Do you understand the risks involved, and are you willing to proceed?\"", "right answer": "The officer asked if I understood the risks involved and if I was willing to proceed.", "wrong": "The officer asked do you understand the risks involved, and are you willing to proceed.", "wrong.1": "The officer asked if I understood the risks involved and if I am willing to proceed.", "wrong.2": "The officer asked whether I understood the risks involved and was I willing to proceed.", "explanation": NaN}, {"question": "She said, \"I have to leave early, as my car was stolen last night.\"", "right answer": "She said that she had to leave early, as her car had been stolen the previous night.", "wrong": "She said she has to leave early, as her car was stolen last night.", "wrong.1": "She said that she had to leave early, as her car was stolen the previous night.", "wrong.2": "She said that I have to leave early, as my car was stolen the previous night.", "explanation": NaN}, {"question": "The passenger asked, \"Where are the files that were kept on the shelf yesterday?\"", "right answer": "The passenger asked where the files were that had been kept on the shelf the day before.", "wrong": "The passenger asked where are the files that were kept on the shelf yesterday.", "wrong.1": "The passenger asked where the files were that were kept on the shelf the day before.", "wrong.2": "The passenger asked where were the files that had been kept on the shelf the day before.", "explanation": NaN}, {"question": "They said, \"We have been living in this town for ages.\"", "right answer": "They said that they had been living in that town for ages.", "wrong": "They said that they have been living in this town for ages.", "wrong.1": "They said that we had been living in that town for ages.", "wrong.2": "They said that they were living in this town for ages.", "explanation": NaN}, {"question": "She said, \"I was reading a novel then.\"", "right answer": "She said that she had been reading a novel then.", "wrong": "She said that she was reading a novel then.", "wrong.1": "She said that I was reading a novel then.", "wrong.2": "She said she read a novel then.", "explanation": NaN}, {"question": "He said, \"I cannot complete the work unless I am provided with the necessary tools.\"", "right answer": "He said that he could not complete the work unless he was provided with the necessary tools.", "wrong": "He said I cannot complete the work unless I am provided with the necessary tools.", "wrong.1": "He said that he could not complete the work unless he is provided with the necessary tools.", "wrong.2": "He said that he cannot complete the work unless he was provided with the necessary tools.", "explanation": NaN}, {"question": "He said, \"I should have completed the presentation yesterday.\"", "right answer": "He said that he should have completed the presentation the day before.", "wrong": "He said that he should complete the presentation the day before.", "wrong.1": "He said that he must have completed the presentation yesterday.", "wrong.2": "He said I should have completed the presentation the day before.", "explanation": NaN}];
+const TIME_LIMIT = 25;
+const quizTitle = " English  - Narration Test";
+let userName = localStorage.getItem('quiz_user') || "";
+let currentIdx = 0, score = 0, timeLeft = TIME_LIMIT, timerObj = null;
+let correctCount = 0, startTime = 0, totalQuestionsAttempted = 0;
+let currentOptions = [];
+
+window.onload = () => { if(userName) showLanding(); };
+
+function saveUser() {
+    userName = document.getElementById('userName').value.trim();
+    if(userName.length < 2) return alert("Enter name");
+    localStorage.setItem('quiz_user', userName);
+    showLanding();
+}
+
+function showLanding() {
+    document.getElementById('loginPage').style.display = 'none';
+    document.getElementById('landingPage').style.display = 'block';
+    document.getElementById('displayUser').textContent = userName;
+}
+
+function startQuiz() {
+    startTime = Date.now();
+    document.getElementById('landingPage').style.display = 'none';
+    document.getElementById('quizContent').style.display = 'block';
+    loadQuestion();
+}
+
+function loadQuestion() {
+    if(currentIdx >= quizData.length) return finishQuiz();
+    timeLeft = TIME_LIMIT;
+    document.getElementById('timer').textContent = timeLeft;
+    document.getElementById('qIdx').textContent = currentIdx + 1;
+    document.getElementById('nextBtn').style.display = 'none';
+    document.getElementById('skipBtn').style.display = 'block';
+    document.getElementById('explanationContainer').style.display = 'none';
+    
+    const q = quizData[currentIdx];
+    currentOptions = [{t:q['right answer'],c:true},{t:q.wrong,c:false},{t:q['wrong.1'],c:false},{t:q['wrong.2'],c:false}].filter(o=>o.t).sort(()=>Math.random()-0.5);
+
+    let html = `<p style="font-size:18px; font-weight:bold; margin-bottom:20px">${q.question}</p>`;
+    currentOptions.forEach((o, i) => {
+        html += `<div class="option" id="opt-${i}" onclick="checkAnswer(${i}, ${o.c})">
+            <strong>${String.fromCharCode(65+i)})</strong> &nbsp; ${o.t}
+        </div>`;
+    });
+    document.getElementById('questionContainer').innerHTML = html;
+    
+    clearInterval(timerObj);
+    timerObj = setInterval(() => {
+        timeLeft--;
+        document.getElementById('timer').textContent = timeLeft;
+        if(timeLeft <= 0) { clearInterval(timerObj); handleTimeout(); }
+    }, 1000);
+}
+
+function checkAnswer(optId, isCorrect) {
+    clearInterval(timerObj);
+    totalQuestionsAttempted++;
+    document.querySelectorAll('.option').forEach(opt => opt.style.pointerEvents = 'none');
+    document.getElementById('skipBtn').style.display = 'none';
+    const el = document.getElementById(`opt-${optId}`);
+    el.style.background = isCorrect ? '#e8fdf0' : '#fff0f0';
+    el.style.borderColor = isCorrect ? 'var(--correct)' : 'var(--wrong)';
+    if(!isCorrect) highlightCorrect();
+    if(isCorrect) { score += 2; correctCount++; } else { score -= 0.5; }
+    showExplanation(isCorrect);
+}
+
+function highlightCorrect() {
+    currentOptions.forEach((o, i) => {
+        if(o.c) {
+            const correctEl = document.getElementById(`opt-${i}`);
+            correctEl.style.background = '#e8fdf0';
+            correctEl.style.borderColor = 'var(--correct)';
+        }
+    });
+}
+
+function skipQuestion() {
+    clearInterval(timerObj);
+    document.querySelectorAll('.option').forEach(opt => opt.style.pointerEvents = 'none');
+    document.getElementById('skipBtn').style.display = 'none';
+    highlightCorrect();
+    showExplanation(false, "⏭️ Question Skipped");
+}
+
+function handleTimeout() { 
+    totalQuestionsAttempted++;
+    score -= 0.5; 
+    document.getElementById('skipBtn').style.display = 'none';
+    highlightCorrect();
+    showExplanation(false, "⏰ Time's Up!"); 
+}
+
+function showExplanation(isCorrect, msg) {
+    const head = msg || (isCorrect ? "✅ Correct!" : "❌ Incorrect!");
+    document.getElementById('explanationContainer').innerHTML = `<div class="explanation"><strong>${head}</strong><br>${quizData[currentIdx].explanation || ''}</div>`;
+    document.getElementById('explanationContainer').style.display = 'block';
+    document.getElementById('nextBtn').style.display = 'block';
+}
+
+function nextQuestion() { currentIdx++; loadQuestion(); }
+
+function finishQuiz() {
+    const totalTimeTaken = Math.floor((Date.now() - startTime) / 1000);
+    const accuracy = totalQuestionsAttempted > 0 ? ((correctCount / totalQuestionsAttempted) * 100).toFixed(1) : 0;
+    document.getElementById('quizContent').style.display = 'none';
+    document.getElementById('results').style.display = 'block';
+    document.getElementById('finalScoreDisplay').textContent = score.toFixed(1);
+    document.getElementById('resAccuracy').textContent = accuracy + "%";
+    document.getElementById('resTime').textContent = totalTimeTaken + "s";
+    let board = JSON.parse(localStorage.getItem('quiz_board') || "[]");
+    board.push({name: userName, score: parseFloat(score.toFixed(1)), time: totalTimeTaken});
+    board.sort((a, b) => b.score - a.score || a.time - b.time);
+    board = board.slice(0, 10);
+    localStorage.setItem('quiz_board', JSON.stringify(board));
+    document.getElementById('leaderBody').innerHTML = board.map((e, i) => `<tr><td>${i+1}</td><td>${e.name}</td><td>${e.score}</td><td>${e.time}s</td></tr>`).join('');
+}
+
+function shareScore(platform) {
+    const totalTimeTaken = document.getElementById('resTime').textContent;
+    const text = `🎯 I scored ${score.toFixed(1)} points in ${totalTimeTaken} on the "${quizTitle}"! \nAccuracy: ${document.getElementById('resAccuracy').textContent}.`;
+    const url = platform === 'wa' ? `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}` : `https://t.me/share/url?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(text)}`;
+    window.open(url, '_blank');
+}
+</script>
+</body>
+</html>
