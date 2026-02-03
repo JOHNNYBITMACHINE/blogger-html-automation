@@ -1,6 +1,7 @@
 client_secret.json
 token.pickle
 quiz.py
+path.py
 
 .venv/
 __pycache__/
