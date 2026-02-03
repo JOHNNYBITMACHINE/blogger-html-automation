@@ -6,3 +6,4 @@ path.py
 .venv/
 __pycache__/
 output/
+garbage/
