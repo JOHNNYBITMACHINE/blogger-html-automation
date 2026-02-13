@@ -2,6 +2,7 @@ client_secret.json
 token.pickle
 quiz.py
 path.py
+blogger-article.html
 
 .venv/
 __pycache__/
